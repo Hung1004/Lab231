@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2021, 5:33:34 PM
+    Author     : Hùng
+*/
+
+* {
+    margin: 0;
+}
+
+.header {
+    padding: 1% 0 2%;
+    background-image: url(../images/front-2columns.jpg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+}
+
+.header h3 {
+    padding: 10px 0 9rem;
+}
+
+/* Content*/
+.content {
+    margin-bottom: 200px;
+}
+
+/* Left */
+.left {
+    width: 20vw;
+    float: left;
+}
+
+.left table {
+    margin-top: -60px;
+}
+
+.left table td {
+    height: 50px;
+    width: 16vw;
+    background-color: wheat;
+    text-align: center;
+}
+
+.left table td a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+/* Right */
+.right {
+    width: 75vw;
+    float: right;
+    margin: -85px auto;
+}
+
+/* Login */
+
+.login table {
+    margin: 0 8vw;
+}
+.login h2 {
+    color: turquoise;
+    font-weight: bold;
+    margin-left: 20vw;
+    margin-bottom: 10px;
+}
+
+.login p {
+    margin: 10px;
+    margin-left: 15vw;
+}
+
+.login table td {
+    padding-bottom: 20px;
+}
+
+.login input {
+    width: 25vw;
+}
+
+.login button {
+    margin-left: 25vw;
+}
+
+.login span {
+    color: red;
+}
+/* Home */
+.request {
+    margin-top: -30px;
+}
+
+.request h3 {
+    color: cornflowerblue;
+    margin-bottom: 5px;
+}
+
+.request table {
+    width: 90%;
+    border: groove;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+.request th {
+    background-color: antiquewhite;
+    border: 1px #b4b4b4 solid;
+     height: 25px;
+}
+
+.request td {
+    border: 1px #b4b4b4 solid;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.request td:first-child {
+    color: teal;
+}
+
+/* solve */
+.solve h3 {
+    color: teal;
+    margin: -45px 0 10px -5vw;
+}
+
+.solve textarea {
+    border-radius: 3px;
+    width: 35vw;
+}
+
+.solve input {
+    border: none;
+    border: black solid 1px;;
+    border-radius: 3px;
+    width: 25vw;
+}
+
+.solve tr td:first-child {
+    text-align: right;
+}
+
+.solve textarea {
+    height: 50px;
+}
+
+/* view */
+.content_view {
+    text-align: center;
+}
+
+.view table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.view h2 {
+    color: teal;
+    margin: -45px 0 10px -5vw;
+}
+
+.view .content_view,
+.view td {
+    border: gray solid 1px;
+}
+
+.view td:first-child {
+    border-left: none;
+    color: teal;
+}
+
+.view tr:first-child td {
+    border-top: none;
+    background-color: beige;
+    height: 25px;
+    color: black;
+}
+
+.view td:last-child,
+a {
+    border-right: none;
+    text-decoration: none;
+}
+
+.view .content_view {
+    width: 90%;
+}
+
+.header_view {
+    background-color: lightgrey;
+}
+
+.header_view span {
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    background-image: url(../images/footerbg-2columns.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 7rem;
+}
+
+@media all and (min-width: 700px) {
+    .header {
+        background-image: url(../images/front.jpg);
+    }
+
+    .left table td {
+        height: 50px;
+        width: 16.8vw;
+
+    }
+
+    .request table {
+        width: 72%;
+    }
+
+    .view .content_view {
+        width: 68%;
+    }
+
+    .footer {
+        background-image: url(../images/footerbg.jpg);
+    }
+}

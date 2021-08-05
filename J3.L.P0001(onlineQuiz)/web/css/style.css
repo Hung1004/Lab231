@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+}
+.active {
+    color: red;
+}
+.disabled{
+    pointer-events: none;
+}
+.container {
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 2%;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 15px 15px 0 0;
+    padding-top: 10px;
+}
+
+/* Header */
+.header {
+    background-image: url(../images/menu_bg.gif);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    margin: 0 10px;
+}
+
+.header .nav {
+    padding: 20px 0 20px;
+}
+
+.header .nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #61574C;
+    padding-left: 3%;
+}
+
+/* Login  Register*/
+.login,
+.register {
+    background-color: #F5F5F5;
+}
+.login .title,
+.register .title {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+}
+
+.login table,
+.register table {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.login a,
+.register a {
+    text-decoration: none;
+}
+.login h4{
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+}
+.login span {
+    color: blue;
+    font-weight: normal;
+}
+
+/* makeQuiz*/
+.makeQuiz table {
+    width: 100%;
+    height: auto;
+    color: darkolivegreen;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.makeQuiz textarea {
+    width: 80%;
+    font-size: 16px;
+}
+
+.makeQuiz .question {
+    height: 5rem;
+}
+
+.makeQuiz table td:first-child {
+    font-weight: bold;
+    width: 10%;
+}
+
+/* managerQuiz */
+.managerQuiz {
+    background-color: #F5F5F5;
+}
+.managerQuiz h2{
+    padding:10px 5% 0 ;
+}
+.managerQuiz table {
+    width: 100%;
+    color: darkolivegreen;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+
+}
+
+.managerQuiz table th:first-child {
+    width: 75%;
+    padding-right: 50px;
+}
+
+.managerQuiz thead {
+    color: blue;
+    text-align: left;
+    padding-left: 5%;
+}
+
+/*   takeQuiz    */
+.takeQuiz {
+    background-color: #F5F5F5;
+}
+
+/* preTake */
+.preTake,
+.take,
+.doneTake {
+    width: 100%;
+    margin-left: 5%;
+    color: darkolivegreen;
+    font-size: 17px;
+}
+
+.preTake h3 {
+    padding-top: 20px;
+}
+
+.preTake span {
+    color: blue;
+    font-weight: normal;
+}
+
+.preTake p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.preTake .btnStart {
+    margin: 5px 40%;
+}
+
+/* Take */
+.take #time {
+    color: red;
+}
+
+.take h3 {
+    padding-top: 20px;
+}
+
+.take span {
+    color: blue;
+    font-weight: normal;
+}
+
+.take p {
+    margin-left: 50%;
+}
+.contentQuiz .finish, .contentQuiz .next{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contentQuiz {
+    margin-bottom:500px; 
+}
+/* doneTake */
+.doneTake h3:first-child {
+    padding-top: 20px;
+}
+.doneTake h3:last-child {
+    padding-bottom:  100px;
+}
+.doneTake input {
+    margin-left:  30px;
+    font-weight: bold;
+}
+
+.doneTake span {
+    color: blue;
+    font-weight: normal;
+}
+
+/* responsive */
+
+@media all and (min-width:800px) {
+
+    .login table,
+    .register table {
+        width: 100%;
+    }
+
+    .header .nav a {
+        padding-left: 9%;
+    }
+
+    .preTake {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .preTake .btnStart {
+        margin-left:0px;
+    }
+    .take {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

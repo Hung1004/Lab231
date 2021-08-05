@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2021, 6:32:55 PM
+    Author     : Hùng
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.active{
+    font-weight: bold;
+}
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.nav {
+    background-color: #303030;
+}
+
+.nav-inner {
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    border-right: 1px grey solid;
+}
+.nav-inner ul {
+    list-style: none;
+}
+
+.nav-inner ul li {
+    text-align: center;
+    border-left: 1px grey solid;
+    float: left;
+}
+
+.nav-inner ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.nav-subInner {
+    font-weight: 700;
+}
+
+.header {
+    background-color: #722F31;
+    padding: 15px 0 30px;
+}
+
+.header-inner .img {
+    width: 100px;
+    height: 90px;
+    float: left;
+    padding-bottom: 2px;
+    margin: 10px 16px 0 0;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 47px;
+    padding-top: 8px;
+}
+
+.subTitle {
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 0;
+    margin-left: 93.5px;
+}
+
+@media(min-width: 900px) {
+    .nav{
+        font-size: 16px;
+    }
+    .header-inner {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 47px;
+        margin-left: 200px;
+    }
+    .nav-inner {
+        width: 70%;
+    }
+}
+@media(max-width: 900px) {
+    .nav{
+        font-size: 13px;
+    }
+    .nav-inner {
+        width: 100%;
+    }
+    .header-inner {
+        width:100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 35px;
+        margin-left: 0px;
+    }
+}
